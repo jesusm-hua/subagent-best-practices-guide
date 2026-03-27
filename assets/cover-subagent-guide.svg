@@ -30,7 +30,7 @@
 
     <rect x="450" y="500" width="290" height="150" rx="24" fill="#111827" stroke="#334155"/>
     <text x="485" y="555" fill="#6EE7B7" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Topology Layer</text>
-    <text x="485" y="600" fill="#E5EEF9" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">Subagents & Teams</text>
+    <text x="485" y="600" fill="#E5EEF9" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">Subagents &amp; Teams</text>
     <text x="485" y="635" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="20">roles · routing · delegation</text>
 
     <rect x="790" y="500" width="290" height="150" rx="24" fill="#111827" stroke="#334155"/>
