@@ -1,8 +1,8 @@
 # Subagent Best Practices Guide
 
-<img src="https://raw.githubusercontent.com/jesusm-hua/subagent-best-practices-guide/main/assets/cover-subagent-guide.svg" alt="Subagent Best Practices Guide Cover" width="100%" />
+![Subagent Best Practices Guide Cover](assets/cover-subagent-guide.png)
 
-> 如果 GitHub 页面缓存未刷新，可直接查看原版矢量图：[`assets/cover-subagent-guide.svg`](assets/cover-subagent-guide.svg)
+> 原版矢量图：[`assets/cover-subagent-guide.svg`](assets/cover-subagent-guide.svg)
 
 一份围绕 **Codex CLI / Claude Code / subagent 架构 / 多 agent 开发工作流** 的中文实践指南。
 
