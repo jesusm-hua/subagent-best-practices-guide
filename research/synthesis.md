@@ -1,7 +1,7 @@
 # Subagent Best Practices Synthesis
 
 ## 目标
-把 40/40 note cards 压缩成可复用的方法论骨架，覆盖：Codex、Claude Code、通用多 agent 架构、开发工作流。
+把 50/50 note cards 压缩成可复用的方法论骨架，覆盖：Codex、Claude Code、通用多 agent 架构、开发工作流，以及可核实的 Reddit 社区实践信号。
 
 ## 1. 先结论
 
@@ -12,7 +12,7 @@
 3. **Control-Flow Layer**：顺序、并行、handoff、review、回滚、状态共享。
 4. **Worker Profile Layer**：角色边界、工具白名单、模型路由、预算、上下文策略。
 
-**Evidence：** 官方 Claude Code 文档把 subagents、agent teams、hooks、permissions、worktree、resume 做成正式控制面；ADK/AutoGen/CrewAI 分别覆盖原语、协作拓扑、worker 参数面；社区高质量案例把 observability、context hygiene、wave-based workflow、repo-native memory 一起抬升为一等问题。  
+**Evidence：** 官方 Claude Code 文档把 subagents、agent teams、hooks、permissions、worktree、resume 做成正式控制面；ADK/AutoGen/CrewAI 分别覆盖原语、协作拓扑、worker 参数面；社区高质量案例把 observability、context hygiene、wave-based workflow、repo-native memory 一起抬升为一等问题；Reddit 补充样本则进一步强化了本地语义检索减 token、成本护栏、不要把 function calling 当唯一编排原语、以及“vibe coding 失败往往是因为缺验证与架构”的社区共识。  
 **Source：** `notes/official/_summary-part1.md`, `notes/official/_summary-networked-8-10.md`, `notes/github/_summary-part1.md`, `notes/github/_summary-networked-8-10.md`, `notes/x/_summary-part1.md`, `notes/x/_summary-networked-8-10.md`, `notes/youtube/_summary-part1.md`, `notes/youtube/_summary-part2.md`
 
 ## 2. Codex vs Claude Code：现在真正的差异
@@ -26,6 +26,19 @@
 | 对我们最有用的启发 | 保持运行时、工具接口、权限边界可替换 | 优先学习其 subagent / workflow / verification 实践 | 不要做 provider-locked 架构 |
 
 **Inference：** 如果目标是今天就写出稳的最佳实践，Claude Code 资料更适合作为主骨架；Codex 更适合作为“单 agent loop + 插件化方向 + 兼容性要求”的补充锚点。
+
+
+## 2.5 Reddit 补充后，哪些信号值得纳入主结论
+
+只保留可验证、且与官方/开源资料能互相印证的部分：
+
+- **本地语义检索 / context compaction 值得进入标准工具层。** 这与官方反复强调的 context hygiene 一致。
+- **成本与权限护栏必须前置。** 社区里的费用失控案例，说明预算与默认权限不是附属项。
+- **不要把 function calling 当成多 agent 的唯一中心原语。** 更稳的是显式状态机、artifact handoff、可恢复控制流。
+- **“vibe coding”失控，本质是缺 repo 结构、验证、review gate。** 这与本文的 verification-first、repo-native memory、single-writer 原则一致。
+
+**Evidence：** 这些点在 Reddit 的 top10 样本中能找到明确表达，并能和官方文档、GitHub 实践互相印证。
+**Inference：** Reddit 更适合用来发现“高频踩坑与一线经验”，不适合单独充当最佳实践总论的唯一证据层。
 
 ## 3. 通用架构：推荐的 4 层模型
 

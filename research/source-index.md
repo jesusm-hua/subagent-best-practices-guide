@@ -47,3 +47,16 @@
 8. Multi-agent development in VS Code | https://www.youtube.com/watch?v=BsAHunfVwNs
 9. My Multi-Agent Team with OpenClaw | https://www.youtube.com/watch?v=bzWI3Dil9Ig
 10. How I Run 6 Coding Agents at Once (My Actual Workflow) | https://www.youtube.com/watch?v=dDeoblrGRGM
+
+
+## reddit (10)
+1. Boris shares his Claude Code setup | https://www.reddit.com/r/ClaudeAI/comments/1q2c0ne/claude_code_creator_boris_shares_his_setup_with/
+2. Claude Code is a Beast – tips from 6 months | https://www.reddit.com/r/ClaudeAI/comments/1oivjvm/claude_code_is_a_beast_tips_from_6_months_of/
+3. 10 Claude Code tips from Boris summarized | https://www.reddit.com/r/ClaudeAI/comments/1qspcip/10_claude_code_tips_from_boris_the_creator_of/
+4. Reduced Claude Code input tokens by 97% using local semantic search | https://www.reddit.com/r/ClaudeAI/comments/1qiv0d3/open_source_i_reduced_claude_code_input_tokens_by/
+5. GPT-5.3 Codex vs Opus 4.6 benchmark on real Rails codebase | https://www.reddit.com/r/ClaudeAI/comments/1qxr7vs/gpt53_codex_vs_opus_46_we_benchmarked_both_on_our/
+6. Codex CLI built NES emulator fast | https://www.reddit.com/r/OpenAI/comments/1nfgwjb/within_20_min_codexcli_with_gpt5_high_made/
+7. Gemini coding cost spike cautionary post | https://www.reddit.com/r/ChatGPTCoding/comments/1jtfvmv/be_care_with_gemini_i_just_got_charged_nearly_500/
+8. Manus backend lead on not using function calling | https://www.reddit.com/r/LocalLLaMA/comments/1rrisqn/i_was_backend_lead_at_manus_after_building_agents/
+9. Why vibe-coded projects fail | https://www.reddit.com/r/ClaudeAI/comments/1rt31th/why_the_majority_of_vibe_coded_projects_fail/
+10. Claude Code Cheatsheet | https://www.reddit.com/r/ClaudeCode/comments/1revj4g/claude_code_cheatsheet/
